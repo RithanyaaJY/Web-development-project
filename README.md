@@ -8,6 +8,7 @@ HTML5: Structured the website's pages, navigation, tutorial content, images, and
 CSS3: Styled the page layouts, colours, typography, navigation bar, tutorial sections, image galleries, and footer.
 Font Awesome: Used icons for social media links.
 External resources: Linked to an externally hosted Font Awesome stylesheet and included a bibliography page to acknowledge reference materials.
+
 Key Features
 Homepage and tutorial gallery: Displays drawing projects, including a panda drawing and a tissue paper portrait, with links to their step-by-step tutorials.
 Step-by-step drawing tutorials: Presents illustrated drawing instructions alongside written explanations.
