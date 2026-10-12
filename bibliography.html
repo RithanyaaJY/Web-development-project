@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta name = "viewport" content = "width = device - width, intial-scale=1.0">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <title>
+            My-Art-Nook_Bibliography
+        </title>
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    
+    <body class = "shadow">
+        <div id="nav-bar">
+            <img src = "Photos/FinalProjectLogo.PNG" class ="logo">
+      
+      <div id = "navbar-right">
+	        <b><a class="active" href = "HomePage.html">Home</a></b>
+	        
+	        <button onclick="Scroll()"> About</button>
+	        
+	      <select name = "language" onchange = "location = this.value;" class = "service">
+	          <option value = "Services" selected>Services</option>
+	          
+	          <option value = "juniorArt.html">Junior Art class</option>
+	          
+	          <option value = "seniorArt.html">Senior Art class</option>
+	      </select>
+	  </div>
+	   </div>
+	    
+	  <div style="margin-top:240px;padding:15px 15px 950px;font-size:30px">
+	     
+	     <center><h2>WEBSITE BIBLIOGRAPHY</h2></center>
+	     
+	     <div>
+	         <img src = "Photos/globe.PNG" height = "10%" width = "20%" class = "picture">
+	         
+	         <div class = "cite">
+	             <h3>Citation</h3>
+	             <p>Patel, Pooja. (n.d.). Flower design. Pinterest. Retrieved January 2, 2023, from <a href = "https://in.pinterest.com/pin/flower-design--939563540979987330/">https://in.pinterest.com/pin/flower-design--939563540979987330/</a></p>
+	         </div>
+	     </div>
+	     
+	     <div>
+	         <img src = "Photos/Anime_Character.jfif" height = "30%" width = "20%" class = "picture">
+	         
+	         <div class = "cite">
+	             <h3>Citation</h3>
+	             <p>Grace With Me. (2019, November 19). Drawing Anime Girl Using Only ONE Pencil. flickr. Retrieved January 2, 2023, from <a href = "https://www.flickr.com/photos/185595591@N07/49092695011">https://www.flickr.com/photos/185595591@N07/49092695011</a></p>
+	         </div>
+	     </div>
+	     
+	     <div>
+	         <img src = "Photos/dino" height = "10%" width = "30%" class = "picture">
+	         
+	         <div class = "cite">
+	             <h3>Citation</h3>
+	             <p>Winters, Veronica. (2022, September 13). How to Draw Dinosaurs. Retrieved January 2, 2023, from <a href = "https://www.wikihow.com/Draw-Dinosaurs">https://www.wikihow.com/Draw-Dinosaurs</a></p>
+	         </div>
+	     </div>
+	     
+	     <div>
+	         <img src = "Photos/w3schools_logo" height = "30%" width = "20%" class = "picture">
+	         
+	         <div class = "cite">
+	             <h3>Citation</h3>
+	             <p>Homepage. W3Schools. Retrieved January 2, 2023, from <a href = "https://www.w3schools.com/">https://www.w3schools.com/</a></p>
+	         </div>
+	     </div>
+	     
+	     <div>
+	         <img src = "Photos/w3collective_logo.jfif" height = "10%" width = "25%" class = "picture">
+	         
+	         <div class = "cite">
+	             <h3>Citation</h3>
+	             <p>Homepage. W3Collective. Retrieved January 2, 2023, from <a href = "https://w3collective.com/">https://w3collective.com/</a></p>
+	         </div>
+	     </div>
+	     
+      </div>
+          
+        <hr class = "hrtag">
+        
+          <div id = "footerOne">
+            <div id = "verticalLine1">
+              <h2>Contact Info.</h2>
+                <ul style = "list-style-type: none;">
+                    <li>
+                        Contact Number : <a href = "(456) - 321 - 7089">(456) - 321 - 7089</a>
+                    </li>
+                    
+                    <br>
+                    
+                    <li>
+                        Email ID : <a href = "MyArtnook10@gmail.com">MyArtnook10@gmail.com</a>
+                    </li>
+                </ul>
+              </div>
+              
+             <div>
+              <h2>To Apply.</h2>
+                <ul type = "circle">
+                    <li>
+                        <a href = "juniorArt.html">Junior_ArtClass - SignUp</a>
+                    </li>
+                    
+                    <br>
+                    
+                    <li>
+                        <a href = "seniorArt.html">Senior_ArtClass - SignUp</a>
+                    </li>
+                </ul>
+            </div>
+              
+            <div id = "verticalLine2">
+              <h2>Social-Media.</h2>
+               
+               <a href="#" class="fa fa-facebook"></a>
+               
+               <a href="#" class="fa fa-twitter"></a>
+               
+               <a href="#" class="fa fa-google"></a>
+               
+               <a href="#" class="fa fa-instagram"></a>
+               
+               <a href="#" class="fa fa-pinterest"></a>
+               
+               <center><a href = "bibliography.html"><h4>Bibliography</h4></a></center>
+            </div>   
+         </div>
+               
+	      <div class = "footerTwo">
+	                <br>
+	              </div>
+	  
+	    <script>
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+              if (document.body.scrollTop > 85 || document.documentElement.scrollTop > 85) {
+                document.getElementById("nav-bar").style = "padding:20px 5px";
+                document.getElementById("logo").style = "font-size:20px";
+              } else {
+                document.getElementById("nav-bar").style = "padding:50px 5px";
+                document.getElementById("logo").style = "font-size:40px";
+              }
+            }
+            
+            function Scroll() {
+                var e = document.getElementById("AboutUS_Info");
+                e.scrollIntoView({
+                block: 'start',
+                behavior: 'smooth',
+                inline: 'start'
+              });
+            }
+	    </script>	  
+    </body>
+</html>

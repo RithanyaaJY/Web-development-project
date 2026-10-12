@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        
+        <meta name = "viewport" content = "width = device - width, intial-scale=1.0">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <title>
+            SeniorArt_classes
+        </title>
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    
+    <body class = "shadow">
+        
+        <div id="nav-bar">
+            <img src = "Photos/FinalProjectLogo.PNG" class ="logo">
+      
+      <div id = "navbar-right">
+	        <b><a class="active" href = "HomePage.html">Home</a></b>
+	        
+	      <select name = "language" onchange = "location = this.value;" class = "service">
+	          <option value = "Services" selected>Services</option>
+	          
+	          <option value = "juniorArt.html">Junior Art class</option>
+	          
+	          <option value = "seniorArt.html">Senior Art class</option>
+	      </select>
+	  </div>
+	   </div>
+	    
+	    <div id = "text">
+	        
+	        <div class = "info1">
+	            <h2 id = "Animated"></h2>
+	            <img src = "Photos/information.jfif" width = 14% height = "14%">
+	                <p>We are delighted to inform you that in January 2023, we will be launching an incredible initiative to assist 
+	                you in spreading your artistic experience. The junior and senior online art classes are a learning platform that is 
+	                only available in the evenings six days a week. You will be guided by a group of instructors that are friendly and 
+	                eager to assist you in any way they can. There is a daily restriction to the number of individuals who can join the 
+	                program, but as we grow, we may have the opportunity to increase the number.</p>
+	        </div>
+	       
+	    </div>
+	    
+	    <div id = "advert">
+	        <img src = "Photos/senior-advert.jfif" height = "70%" width = "80%">
+	    </div>
+	    
+	    <div id = "surveyOne">
+	        
+	    </div>
+	   
+	   <div>
+	       <input type="button" onclick="window.location.href = 'Form.html'; " value="Sign-Up Application" id = "signUp_Button">
+	   </div>
+	   
+	   <hr class = "hrtag">
+        
+          <div id = "footerOne">
+            <div id = "verticalLine1">
+              <h2>Contact Info.</h2>
+                <ul style = "list-style-type: none;">
+                    <li>
+                        Contact Number : <a href = "(456) - 321 - 7089">(456) - 321 - 7089</a>
+                    </li>
+                    
+                    <br>
+                    
+                    <li>
+                        Email ID : <a href = "MyArtnook10@gmail.com">MyArtnook10@gmail.com</a>
+                    </li>
+                </ul>
+              </div>
+              
+             <div>
+              <h2>To Apply.</h2>
+                <ul type = "circle">
+                    <li>
+                        <a href = "juniorArt.html">Junior_ArtClass - SignUp</a>
+                    </li>
+                    
+                    <br>
+                    
+                    <li>
+                        <a href = "seniorArt.html">Senior_ArtClass - SignUp</a>
+                    </li>
+                </ul>
+            </div>
+              
+            <div id = "verticalLine2">
+              <h2>Social-Media.</h2>
+               
+               <a href="#" class="fa fa-facebook"></a>
+               
+               <a href="#" class="fa fa-twitter"></a>
+               
+               <a href="#" class="fa fa-google"></a>
+               
+               <a href="#" class="fa fa-instagram"></a>
+               
+               <a href="#" class="fa fa-pinterest"></a>
+               
+               <center><a href = "bibliography.html"><h4>Bibliography</h4></a></center>
+            </div>   
+         </div>
+               
+	      <div class = "footerTwo">
+	                <br>
+	              </div>
+	  
+	   
+	    <script>
+	    
+	        window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+              if (document.body.scrollTop > 85 || document.documentElement.scrollTop > 85) {
+                document.getElementById("nav-bar").style = "padding:20px 5px";
+                document.getElementById("logo").style = "font-size:20px";
+              } else {
+                document.getElementById("nav-bar").style = "padding:50px 5px";
+                document.getElementById("logo").style = "font-size:40px";
+              }
+            }
+                
+                document.addEventListener("DOMContentLoaded", function () {
+                var alphabet = 0;
+                const text = "Information";
+                
+            function Animation() {
+                if (alphabet < text.length) {
+                    document.getElementById("Animated").innerHTML += text.charAt(alphabet);
+                    alphabet++;
+                var time = Math.floor(Math.random() * 150) + 50;
+                    setTimeout(Animation, time);
+            }
+        }
+            Animation();
+    });
+	    </script>	
+	    
+    </body>
+</html>
